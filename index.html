@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout Frameset</title>
+</head>
+<frameset rows="15%, 15%, 100%" border="1">
+    <!-- HEADER -->
+    <frame src="header.html" name="header" scrolling="no" noresize>
+    
+    <!-- NAVIGATION MENU -->
+    <frame src="menu.html" name="menu" scrolling="no" noresize>
+    
+    <!-- MAIN CONTENT -->
+    <frameset cols="20%, 60%, 20%">
+        <frame src="left.html" name="left">
+        <frame src="main.html" name="main">
+        <frame src="right.html" name="right">
+    </frameset>
+
+    <!-- FOOTER -->
+    <frame src="footer.html" name="footer" scrolling="no" noresize>
+</frameset>
+</html>
